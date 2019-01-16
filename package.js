@@ -8,7 +8,7 @@ Package.describe({
 Npm.depends({'activedirectory' : '0.7.0'});
 
 Package.on_use(function (api) {
-  api.use(['coffeescript@1.0.10'], 'server');
+  api.use(['coffeescript@2.2.1_1'], 'server');
   api.use(['accounts-base@1.2.1'], ['client', 'server']);
   api.imply('accounts-base@1.2.1', ['client', 'server']);
   api.use(['templating@1.1.4','jquery@1.11.4'], 'client');
