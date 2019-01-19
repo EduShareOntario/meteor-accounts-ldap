@@ -8,7 +8,7 @@ Package.describe({
 Npm.depends({'activedirectory' : '0.7.0'});
 
 Package.on_use(function (api) {
-  api.versionsFrom("meteor@1.4.4.5")
+  api.versionsFrom("METEOR@1.4.4.5");
   api.use(['coffeescript@2.2.1_1'], 'server');
   api.use(['accounts-base@1.4.2'], ['client', 'server']);
   api.imply('accounts-base@1.4.2', ['client', 'server']);
